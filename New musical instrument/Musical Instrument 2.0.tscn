@@ -1,0 +1,257 @@
+[gd_scene load_steps=12 format=3 uid="uid://doqw73e0c5es4"]
+
+[ext_resource type="Texture2D" uid="uid://drg14a5my0ac5" path="res://pawprint wallpaper.jpeg" id="1_ng38p"]
+[ext_resource type="Script" path="res://meow.gd" id="3_fpx82"]
+[ext_resource type="Texture2D" uid="uid://cjyplumeyptdh" path="res://cat (c note).jpg" id="3_hlfs7"]
+[ext_resource type="AudioStream" uid="uid://bkd1tocadm57h" path="res://262312__steffcaffrey__cat-meow1.wav" id="4_l6666"]
+[ext_resource type="Texture2D" uid="uid://du1oump4tn558" path="res://cat (d note).jpg" id="5_hv4e6"]
+[ext_resource type="Texture2D" uid="uid://bv2bmnqlwmic" path="res://cat (e note).png" id="6_jcwff"]
+[ext_resource type="Texture2D" uid="uid://dibjoo7fu3x5r" path="res://cat (f note).png" id="7_4fqlq"]
+[ext_resource type="Texture2D" uid="uid://bhl5rf1ndpxgf" path="res://cat (a note).png" id="8_rskqg"]
+[ext_resource type="AudioStream" uid="uid://datxp3kculo6x" path="res://146963__zabuhailo__cathisses1.wav" id="8_uck1w"]
+[ext_resource type="Texture2D" uid="uid://bhy0vfpt3dbft" path="res://cat (g note).jpg" id="9_nfkx2"]
+[ext_resource type="Texture2D" uid="uid://c1c3lddvrls6r" path="res://cat (b note).png" id="10_i4su8"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("3_fpx82")
+
+[node name="PawprintWallpaper" type="Sprite2D" parent="."]
+position = Vector2(1029, 566)
+scale = Vector2(4.175, 3.29412)
+texture = ExtResource("1_ng38p")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 67.0
+offset_top = 179.0
+offset_right = 465.0
+offset_bottom = 567.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+icon = ExtResource("3_hlfs7")
+flat = true
+alignment = 2
+icon_alignment = 1
+
+[node name="Label" type="Label" parent="Button"]
+layout_mode = 0
+offset_right = 99.0
+offset_bottom = 63.0
+theme_override_font_sizes/font_size = 29
+text = "MEOW"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+visible_characters = 5
+visible_ratio = 1.25
+
+[node name="Label2" type="Label" parent="Button"]
+layout_mode = 0
+offset_left = 290.0
+offset_top = 330.0
+offset_right = 389.0
+offset_bottom = 393.0
+theme_override_font_sizes/font_size = 29
+text = "MEOW"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+visible_characters = 5
+visible_ratio = 1.25
+
+[node name="Label3" type="Label" parent="Button"]
+layout_mode = 0
+offset_left = 290.0
+offset_top = 32.0
+offset_right = 389.0
+offset_bottom = 95.0
+theme_override_font_sizes/font_size = 29
+text = "MEOW"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+visible_characters = 5
+visible_ratio = 1.25
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(0, -2)
+stream = ExtResource("4_l6666")
+pitch_scale = 0.67
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 1034.0
+offset_top = 211.0
+offset_right = 1392.0
+offset_bottom = 494.0
+icon = ExtResource("5_hv4e6")
+flat = true
+icon_alignment = 1
+
+[node name="Label11" type="Label" parent="Button2"]
+layout_mode = 0
+offset_left = 235.0
+offset_top = 238.0
+offset_right = 350.0
+offset_bottom = 307.0
+theme_override_font_sizes/font_size = 30
+text = "MWOW"
+
+[node name="AudioStreamPlayer2D2" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_l6666")
+pitch_scale = 0.39
+
+[node name="Button3" type="Button" parent="."]
+offset_left = 118.0
+offset_top = 639.0
+offset_right = 507.0
+offset_bottom = 1037.0
+icon = ExtResource("6_jcwff")
+flat = true
+icon_alignment = 1
+
+[node name="Label6" type="Label" parent="Button3"]
+layout_mode = 0
+offset_left = 200.0
+offset_top = 327.0
+offset_right = 369.0
+offset_bottom = 396.0
+theme_override_font_sizes/font_size = 30
+text = "MEOOOOW"
+
+[node name="Label7" type="Label" parent="Button3"]
+layout_mode = 0
+offset_left = 33.0
+offset_top = 18.0
+offset_right = 202.0
+offset_bottom = 87.0
+theme_override_font_sizes/font_size = 30
+text = "MEOOOOW"
+
+[node name="AudioStreamPlayer2D3" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_l6666")
+pitch_scale = 0.92
+
+[node name="Button4" type="Button" parent="."]
+offset_left = 546.0
+offset_top = 211.0
+offset_right = 954.0
+offset_bottom = 519.0
+icon = ExtResource("7_4fqlq")
+flat = true
+icon_alignment = 1
+
+[node name="Label4" type="Label" parent="Button4"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 29.0
+offset_right = 271.0
+offset_bottom = 98.0
+theme_override_font_sizes/font_size = 25
+text = "HISSSSSS"
+
+[node name="Label5" type="Label" parent="Button4"]
+layout_mode = 0
+offset_left = 271.0
+offset_top = 260.0
+offset_right = 519.0
+offset_bottom = 329.0
+theme_override_font_sizes/font_size = 25
+text = "HISSSSSS"
+
+[node name="AudioStreamPlayer2D4" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(35, 336)
+stream = ExtResource("8_uck1w")
+volume_db = 13.117
+pitch_scale = 1.81
+
+[node name="Button5" type="Button" parent="."]
+offset_left = 1384.0
+offset_top = 639.0
+offset_right = 1794.0
+offset_bottom = 1047.0
+icon = ExtResource("8_rskqg")
+flat = true
+icon_alignment = 1
+
+[node name="Label13" type="Label" parent="Button5"]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 344.0
+offset_right = 214.0
+offset_bottom = 445.0
+theme_override_font_sizes/font_size = 43
+text = "MIEW"
+
+[node name="AudioStreamPlayer2D5" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_l6666")
+pitch_scale = 1.15
+panning_strength = 0.38
+
+[node name="Button6" type="Button" parent="."]
+offset_left = 1491.0
+offset_top = 179.0
+offset_right = 1899.0
+offset_bottom = 587.0
+icon = ExtResource("9_nfkx2")
+flat = true
+icon_alignment = 1
+
+[node name="Label12" type="Label" parent="Button6"]
+layout_mode = 0
+offset_left = 259.0
+offset_top = 336.0
+offset_right = 363.0
+offset_bottom = 405.0
+theme_override_font_sizes/font_size = 35
+text = "MEW"
+
+[node name="AudioStreamPlayer2D6" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_l6666")
+pitch_scale = 3.0
+
+[node name="Button7" type="Button" parent="."]
+offset_left = 724.0
+offset_top = 657.0
+offset_right = 1113.0
+offset_bottom = 1065.0
+icon = ExtResource("10_i4su8")
+flat = true
+icon_alignment = 1
+
+[node name="Label8" type="Label" parent="Button7"]
+layout_mode = 0
+offset_left = 44.0
+offset_top = 18.0
+offset_right = 197.0
+offset_bottom = 65.0
+theme_override_font_sizes/font_size = 34
+text = "MEOW?"
+
+[node name="Label9" type="Label" parent="Button7"]
+layout_mode = 0
+offset_left = 239.0
+offset_top = 349.0
+offset_right = 392.0
+offset_bottom = 396.0
+theme_override_font_sizes/font_size = 34
+text = "MEOW?"
+
+[node name="Label10" type="Label" parent="Button7"]
+layout_mode = 0
+offset_left = 197.0
+offset_top = 65.0
+offset_right = 350.0
+offset_bottom = 112.0
+theme_override_font_sizes/font_size = 34
+text = "MEOW?"
+
+[node name="AudioStreamPlayer2D7" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_l6666")
+pitch_scale = 1.64
+
+[connection signal="button_down" from="Button" to="." method="_on_button_button_down"]
+[connection signal="button_down" from="Button2" to="." method="_on_button_2_button_down"]
+[connection signal="button_down" from="Button3" to="." method="_on_button_3_button_down"]
+[connection signal="button_down" from="Button4" to="." method="_on_button_4_button_down"]
+[connection signal="button_down" from="Button5" to="." method="_on_button_5_button_down"]
+[connection signal="button_down" from="Button6" to="." method="_on_button_6_button_down"]
+[connection signal="button_down" from="Button7" to="." method="_on_button_7_button_down"]
